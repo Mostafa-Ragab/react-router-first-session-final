@@ -25,6 +25,11 @@ const routes = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+        loader: (data) => {
+          console.log(data)
+          
+          //throw new Response("Bad Request", {statusText:'error message',status:400})
+        }
       },
       {
         path: "faq",
