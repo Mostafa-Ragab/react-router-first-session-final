@@ -41,7 +41,7 @@ const routes = createBrowserRouter([
     path: "/user",
     element: <UserRoot />,
     children: [
-      { index: true, element: <div>hello kareem</div> },
+      { index: true, element: <div>hello Mustafa</div> },
       {
         path: "info",
         element: <UserInfo />,
